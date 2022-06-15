@@ -8,7 +8,7 @@ from bot.helper.parser import get_gp_link
 
 
 def scrape_gp(update, context):
-    buttons = button_builder.ButtonMaker()
+    buttons = button_build.ButtonMaker()
     buttons.buildbutton("𝗣𝗿𝗶𝗺𝗲 𝗕𝗼𝘁𝘀", "https://t.me/prime_Botz")
     buttons.buildbutton("𝗝𝗼𝗶𝗻", "https://t.me/PrimexCloud")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(1))
