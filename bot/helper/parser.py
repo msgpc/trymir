@@ -5,7 +5,6 @@ import requests
 from urllib.parse import urlparse, parse_qs
 
 import time
-from .requirements cloudscraper
 from bs4 import BeautifulSoup
 
 
